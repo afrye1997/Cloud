@@ -1,0 +1,5 @@
+The map function was invoked 258 times because the function is called
+on each line of a file to be able to tokenize each word. File0 contained 109 lines and
+File1 contained 149 lines.
+I placed, context.write(new Text("~~~~MapCount"), one);, outside of the while loop
+to show that it was called only on each call instead of in the while loop. 

@@ -1,0 +1,6 @@
+I copy pasted the WordPair code into NewText and removed everything related to neighbors
+including variable names and methods. Next, in compareTo method, I returned a negative
+value of returnValue if current word didn't match other word ro reverse the order.
+
+
+tar -cvf pa3_Frye.tar input output WordCount.java NewText.java answer.txt

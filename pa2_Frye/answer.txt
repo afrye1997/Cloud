@@ -1,0 +1,12 @@
+Bigrams are two consective words combined into one string separated by a space.
+To piece together a bigram, I set a variable called previous word to null then checked
+how many words were in value. If there was only 1, it skipped. Next, I set the current word
+to the iterated word and said if the previous word was not null, then combine previous word 
+and current word, else set the previous word to the current word. In the if statement, it wrote
+to context, the bigram and one. If it wrote to context outside of the if statement, there would be 
+repeated bigrams. 
+
+To count the number of map tasks, I called the cleanup function. This function is called at the end
+of every map task. It wrote to context. The number of map taks was 3. 
+
+

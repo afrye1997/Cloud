@@ -1,0 +1,16 @@
+rm -rf output *.jar *.class
+javac *.java
+jar -cvf relativefreq1.jar ./*.class
+hadoop jar relativefreq1.jar relativefreq1 input output
+
+
+rm -rf output *.jar *.class
+javac *.java
+jar -cvf relativefreq2.jar ./*.class
+hadoop jar relativefreq2.jar relativefreq2 input output
+
+
+
+
+
+
